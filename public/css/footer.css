@@ -12,3 +12,37 @@ footer{
     color: white;
     text-transform: uppercase;
 }
+
+
+@media (min-width:768px){
+    footer{
+        background-color: var(--colorRojo);
+        border-top: 25px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px 25px 0 0 ;
+    }
+
+    .home footer ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .home footer ul li{
+        background-color: #ffffff00;
+        padding: 10px;
+        margin: 2px 0 ;
+        border-left: 2px solid var(--colorBlanco);
+    }
+
+    .home footer ul li:first-child{
+        border-left: none;
+    }
+
+    .home footer ul li a{
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+}
